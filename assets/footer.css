@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+    background-color: darkgrey; 
+    height: 40px;
+    
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.footer-left p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-center span {
+    font-size: 12px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right span {
+    font-size: 12px;
+
+}

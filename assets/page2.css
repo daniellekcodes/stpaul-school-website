@@ -1,0 +1,110 @@
+.apContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.leftAP {
+    width: 30%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imageAP img {
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+
+.centerAP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    gap: 50px;
+    
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    /* height: 50%; */
+    /* margin-bottom: 50px; */
+}
+
+.profile:nth-of-type(1) {
+    margin-top: 10px;
+}
+
+.divisionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    /* height: 50%; */
+}
+
+.divisionTop {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.divisionBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.division {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightAP {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division img {
+    width: 50px;
+    height: 50px;
+}
+
+.num {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    
+}
+.divText {
+    margin: 5px;
+}
+
+.divText  p:first-child {
+    font-weight: bold;
+}
+
+.divsion > p {
+    font-size: 9px;
+   
+}

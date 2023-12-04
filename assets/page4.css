@@ -1,0 +1,52 @@
+.faqSection {
+    display: flex;
+    flex-direction: row;
+}
+
+#faq, #faq2 {
+    margin: 100px auto;
+    width: 500px;
+}
+
+#faq li, #faq2 li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#faq li label, #faq2 li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #6ba6ff;
+
+}
+
+#faq li label span, #faq2 li label span {
+    transform: rotate(90deg);
+    font-size: 12px;
+    color: #6ba6ff;
+}
+
+#faq label + input[type="radio"], #faq2 label + input[type="radio"]{
+    display: none;
+}
+
+#faq .faqcontent, #faq2 .faqcontent{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#faq label + input[type="radio"]:checked + .faqcontent, #faq2 label + input[type="radio"]:checked + .faqcontent{
+    max-height: 300px;
+}
